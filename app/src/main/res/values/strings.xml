@@ -6,4 +6,6 @@
     <string name="home_label">Home</string>
     <string name="comentarios_label">Comentarios</string>
 
+    <string name="product_image">product image</string>
+
 </resources>
