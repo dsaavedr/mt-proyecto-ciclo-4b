@@ -1,4 +1,4 @@
-package com.example.storefrontapplication
+package com.example.storefrontapplication.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,6 +9,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.example.storefrontapplication.R
 import com.example.storefrontapplication.databinding.ActivityMainBinding
 
 
@@ -47,7 +48,7 @@ class MainActivity : AppCompatActivity() {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         return when (item.itemId) {
-            R.id.linearLayoutExampleFragment -> true
+            R.id.homeFragment -> true
             else -> super.onOptionsItemSelected(item)
         }
     }

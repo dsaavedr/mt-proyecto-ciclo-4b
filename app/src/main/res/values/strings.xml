@@ -5,7 +5,10 @@
     <string name="category_image">category image</string>
     <string name="home_label">Home</string>
     <string name="comentarios_label">Comentarios</string>
+    <string name="product_detail_label">Detalles del producto</string>
 
     <string name="product_image">product image</string>
+    <string name="categories_label">Categorias</string>
+    <string name="perfil_label">Perfil</string>
 
 </resources>

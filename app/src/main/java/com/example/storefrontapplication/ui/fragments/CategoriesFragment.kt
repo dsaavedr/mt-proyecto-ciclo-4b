@@ -1,4 +1,4 @@
-package com.example.storefrontapplication
+package com.example.storefrontapplication.ui.fragments
 
 import android.os.Bundle
 import android.util.Log
@@ -6,10 +6,13 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.storefrontapplication.R
+import com.example.storefrontapplication.ui.adapters.CategoriesAdapter
+import com.example.storefrontapplication.ui.listeners.OnCategoryListener
+import com.example.storefrontapplication.data.models.Category
 import com.example.storefrontapplication.databinding.FragmentCategoriesBinding
-
-import java.util.zip.Inflater
 
 /**
  * A simple [Fragment] subclass.
@@ -51,6 +54,7 @@ class CategoriesFragment : Fragment() {
         categoriesAdapter.listener = object : OnCategoryListener {
             override fun onClick(category: Category) {
                 Log.d("click", category.name)
+                findNavController().navigate(R.id.action_categoriesFragment_to_productFragment)
             }
         }
 

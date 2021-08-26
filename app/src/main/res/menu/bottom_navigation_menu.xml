@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/linearLayoutExampleFragment"
+        android:id="@+id/homeFragment"
         android:enabled="true"
         android:icon="@drawable/ic_baseline_home_24"
         android:title="@string/home_label"/>
+    <item
+        android:id="@+id/categoriesFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+        android:title="@string/categories_label"/>
     <item
         android:id="@+id/commentFragment"
         android:enabled="true"
         android:icon="@drawable/ic_baseline_comment_24"
         android:title="@string/comentarios_label"/>
+    <item
+        android:id="@+id/profileFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/perfil_label"/>
+
 </menu>

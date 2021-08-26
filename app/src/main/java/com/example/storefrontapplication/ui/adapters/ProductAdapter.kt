@@ -1,12 +1,14 @@
-package com.example.storefrontapplication
+package com.example.storefrontapplication.ui.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.example.storefrontapplication.data.models.Product
 import com.example.storefrontapplication.databinding.ItemProductBinding
+import com.example.storefrontapplication.ui.listeners.OnProductListener
 
-class ProductAdapter (val items: List<Product>): RecyclerView.Adapter<ProductAdapter.ViewHolder>() {
+class ProductAdapter (var items: List<Product>): RecyclerView.Adapter<ProductAdapter.ViewHolder>() {
 
     var listener: OnProductListener? = null
 
@@ -33,4 +35,8 @@ class ProductAdapter (val items: List<Product>): RecyclerView.Adapter<ProductAda
         return items.size
     }
 
+    fun newDataSet(products: List<Product>) {
+        items = products
+        notifyDataSetChanged()
+    }
 }
