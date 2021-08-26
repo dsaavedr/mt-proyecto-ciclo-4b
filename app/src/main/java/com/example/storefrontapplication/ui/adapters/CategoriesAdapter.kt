@@ -1,10 +1,12 @@
-package com.example.storefrontapplication
+package com.example.storefrontapplication.ui.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.example.storefrontapplication.data.models.Category
 import com.example.storefrontapplication.databinding.ItemCategoryBinding
+import com.example.storefrontapplication.ui.listeners.OnCategoryListener
 
 
 class CategoriesAdapter (val items: List<Category>): RecyclerView.Adapter<CategoriesAdapter.ViewHolder>() {

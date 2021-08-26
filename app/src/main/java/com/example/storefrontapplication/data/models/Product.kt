@@ -1,4 +1,4 @@
-package com.example.storefrontapplication
+package com.example.storefrontapplication.data.models
 
 data class Product (
     val image: String,
