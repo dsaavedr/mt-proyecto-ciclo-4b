@@ -38,8 +38,6 @@ class ProductFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-//        return inflater.inflate(R.layout.fragment_product, container, false)
         _binding = FragmentProductBinding.inflate(inflater, container, false)
         return binding.root
 

@@ -22,9 +22,9 @@ class ProductAdapter (var items: List<Product>): RecyclerView.Adapter<ProductAda
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val product = items[position]
-        holder.item.productName.text = product.name
-        holder.item.productPrice.text = product.price
-        Glide.with(holder.itemView).load(product.image).into(holder.item.productIcon);
+        holder.item.productListName.text = product.name
+        holder.item.productListPrice.text = product.price
+        Glide.with(holder.itemView).load(product.image).into(holder.item.productListImage);
 
         holder.item.root.setOnClickListener {
             listener?.onClick(product)

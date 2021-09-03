@@ -8,7 +8,9 @@
     <string name="product_detail_label">Detalles del producto</string>
 
     <string name="product_image">product image</string>
-    <string name="categories_label">Categorias</string>
+    <string name="product_label">Productos</string>
     <string name="perfil_label">Perfil</string>
+    <string name="productos_label">Productos</string>
+    <string name="detail_label">Detalle del producto</string>
 
 </resources>
