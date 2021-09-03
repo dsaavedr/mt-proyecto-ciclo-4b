@@ -1,6 +1,0 @@
-package com.example.storefrontapplication.data.models
-
-data class Category (
-    val image: String,
-    val name: String
-)
