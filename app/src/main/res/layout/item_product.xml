@@ -13,7 +13,7 @@
         android:layout_marginBottom="@dimen/small_margin">
 
         <ImageView
-            android:id="@+id/product_icon"
+            android:id="@+id/product_list_image"
             android:layout_width="match_parent"
             android:layout_height="90dp"
             app:layout_constraintRight_toRightOf="parent"
@@ -24,11 +24,11 @@
             tools:src="@mipmap/ic_launcher"/>
 
         <TextView
-            android:id="@+id/product_name"
+            android:id="@+id/product_list_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/product_icon"
+            app:layout_constraintTop_toBottomOf="@id/product_list_image"
             android:layout_marginHorizontal="@dimen/default_margin"
             android:layout_marginTop="@dimen/small_margin"
             tools:text="Mi producto"
@@ -37,11 +37,11 @@
             />
 
         <TextView
-            android:id="@+id/product_price"
+            android:id="@+id/product_list_price"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/product_name"
+            app:layout_constraintTop_toBottomOf="@id/product_list_name"
             android:layout_marginHorizontal="@dimen/default_margin"
             tools:text="$ 4.800"
 
@@ -55,7 +55,7 @@
             android:textSize="12sp"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/product_price"
+            app:layout_constraintTop_toBottomOf="@id/product_list_price"
             android:layout_marginEnd="@dimen/default_margin"
             android:backgroundTint="@color/colorSecondary"
             />
