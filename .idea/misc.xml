@@ -3,6 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Storage/Documents/MinTIC/DesarrolloAndroid/ProyectoCiclo/Repos/Front/app/src/main/res/drawable/ic_launcher_background.xml" value="0.403125" />
+        <entry key="..\:/Storage/Documents/MinTIC/DesarrolloAndroid/ProyectoCiclo/Repos/Front/app/src/main/res/drawable/store_bg.xml" value="0.39692307692307693" />
+        <entry key="..\:/Storage/Documents/MinTIC/DesarrolloAndroid/ProyectoCiclo/Repos/Front/app/src/main/res/layout/activity_login.xml" value="0.38697916666666665" />
+        <entry key="..\:/Storage/Documents/MinTIC/DesarrolloAndroid/ProyectoCiclo/Repos/Front/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Storage/Documents/MinTIC/DesarrolloAndroid/ProyectoCiclo/Repos/Front/app/src/main/res/layout/activity_register.xml" value="0.38697916666666665" />
+        <entry key="..\:/Storage/Documents/MinTIC/DesarrolloAndroid/ProyectoCiclo/Repos/Front/app/src/main/res/layout/content_main.xml" value="0.38697916666666665" />
+        <entry key="..\:/Storage/Documents/MinTIC/DesarrolloAndroid/ProyectoCiclo/Repos/Front/app/src/main/res/layout/fragment_comment.xml" value="0.38697916666666665" />
+        <entry key="..\:/Storage/Documents/MinTIC/DesarrolloAndroid/ProyectoCiclo/Repos/Front/app/src/main/res/layout/fragment_product_detail.xml" value="0.38697916666666665" />
+        <entry key="..\:/Storage/Documents/MinTIC/DesarrolloAndroid/ProyectoCiclo/Repos/Front/app/src/main/res/layout/fragment_store_info.xml" value="0.38697916666666665" />
+        <entry key="..\:/Storage/Documents/MinTIC/DesarrolloAndroid/ProyectoCiclo/Repos/Front/app/src/main/res/layout/fragment_store_info_card.xml" value="0.38697916666666665" />
+        <entry key="..\:/Storage/Documents/MinTIC/DesarrolloAndroid/ProyectoCiclo/Repos/Front/app/src/main/res/layout/item_comment.xml" value="0.38697916666666665" />
+        <entry key="..\:/Storage/Documents/MinTIC/DesarrolloAndroid/ProyectoCiclo/Repos/Front/app/src/main/res/layout/item_product.xml" value="0.38697916666666665" />
+        <entry key="..\:/Storage/Documents/MinTIC/DesarrolloAndroid/ProyectoCiclo/Repos/Front/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/Rafa/Documents/000. PORTAFOLIO INVERSIONES/MISION TIC 2022/CICLO 4B/PROYECTO/mt-proyecto-ciclo-4b/app/src/main/res/drawable/button_rounded.xml" value="0.2203125" />
         <entry key="..\:/Users/Rafa/Documents/000. PORTAFOLIO INVERSIONES/MISION TIC 2022/CICLO 4B/PROYECTO/mt-proyecto-ciclo-4b/app/src/main/res/drawable/input_rounded.xml" value="0.3828125" />
         <entry key="..\:/Users/Rafa/Documents/000. PORTAFOLIO INVERSIONES/MISION TIC 2022/CICLO 4B/PROYECTO/mt-proyecto-ciclo-4b/app/src/main/res/layout/activity_login.xml" value="0.25" />
