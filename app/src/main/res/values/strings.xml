@@ -1,16 +1,15 @@
 <resources>
     <string name="app_name">StorefrontApplication</string>
-
+    <string name="BotonRegistro">Registrarse</string>
+    <string name="tv1">Login</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="category_image">category image</string>
     <string name="home_label">Home</string>
     <string name="comentarios_label">Comentarios</string>
     <string name="product_detail_label">Detalles del producto</string>
-
     <string name="product_image">product image</string>
     <string name="product_label">Productos</string>
     <string name="perfil_label">Perfil</string>
     <string name="productos_label">Productos</string>
     <string name="detail_label">Detalle del producto</string>
-
 </resources>
